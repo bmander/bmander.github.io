@@ -1,2 +1,3 @@
 # bmander.github.io
-My blog
+
+Index of my project sites on GitHub Pages: https://bmander.github.io/
