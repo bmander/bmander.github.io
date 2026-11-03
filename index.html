@@ -3,146 +3,72 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Brandon Martin-Anderson · projects</title>
-<meta name="description" content="Project sites by Brandon Martin-Anderson (bmander) hosted on GitHub Pages.">
+<title>Brandon Martin-Anderson</title>
 <style>
-  :root {
-    --bg: #fbfbf9; --fg: #1b1d20; --muted: #6a6f76; --line: #e3e3de; --link: #1f5fbf;
-  }
-  @media (prefers-color-scheme: dark) {
-    :root { --bg: #121417; --fg: #e4e6e9; --muted: #969ba3; --line: #2a2e34; --link: #7fb0ff; }
-  }
-  * { box-sizing: border-box; }
   body {
-    margin: 0; background: var(--bg); color: var(--fg);
-    font: 16px/1.55 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-family: Verdana, Helvetica, sans-serif;
+    background-color: #FFFFFF;
+    font-size: 90%;
   }
-  main { max-width: 44rem; margin: 0 auto; padding: 3.5rem 1.25rem 4rem; }
-  header { margin-bottom: 2.5rem; }
-  h1 { font-size: 1.6rem; line-height: 1.2; margin: 0 0 .4rem; }
-  header p { margin: 0; color: var(--muted); }
-  a { color: var(--link); text-decoration: none; }
-  a:hover, a:focus-visible { text-decoration: underline; }
-  h2 {
-    font-size: .8rem; font-weight: 600; letter-spacing: .08em; text-transform: uppercase;
-    color: var(--muted); margin: 2.5rem 0 .5rem; padding-bottom: .4rem; border-bottom: 1px solid var(--line);
+  div#container {
+    max-width: 960px;
+    padding: 0 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-left: 1px solid #b3b3a4;
   }
-  ul { list-style: none; margin: 0; padding: 0; }
-  li { padding: .7rem 0; }
-  li + li { border-top: 1px solid var(--line); }
-  .title { display: flex; align-items: baseline; gap: .75rem; flex-wrap: wrap; }
-  .title > a:first-child { font-weight: 600; font-size: 1.05rem; }
-  .source, .year { font-size: .85rem; color: var(--muted); }
-  .source { margin-left: auto; color: var(--muted); }
-  li p { margin: .15rem 0 0; }
-  footer { margin-top: 3rem; font-size: .85rem; color: var(--muted); }
-  footer a { color: inherit; text-decoration: underline; }
+  h1 {
+    font-size: 400%;
+    font-weight: bold;
+    margin-bottom: 0px;
+    margin-top: 0px;
+  }
+  li { margin-bottom: 0.3em; }
+  .source { font-size: 85%; }
 </style>
 </head>
 <body>
-<main>
-  <header>
+  <div id="container">
     <h1>Brandon Martin-Anderson</h1>
-    <p>Projects I host on GitHub Pages. Each one has its source on <a href="https://github.com/bmander">GitHub</a>.</p>
-  </header>
+    things on github pages
 
-  <section>
-    <h2>Transit &amp; cities</h2>
+    <h2>transit &amp; cities</h2>
     <ul>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/subway-map/">NYC subway ridership map</a><a class="source" href="https://github.com/bmander/subway-map">source</a></div>
-        <p>Riders aboard every NYC subway train, inferred from turnstile counts and the timetable, on an animated map.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/extrapolation-science/">Extrapolation science</a><a class="source" href="https://github.com/bmander/extrapolation-science">source</a></div>
-        <p>Where is the bus right now? Hypotheses for extrapolating vehicle positions past the last GPS fix, tested against real AVL data.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/routelab/">routelab</a><a class="source" href="https://github.com/bmander/routelab">source</a></div>
-        <p>Reference implementations of routing algorithms, with a Python veneer over Rust kernels.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://www.thecityandthebike.com/">The City and the Bike</a><a class="source" href="https://github.com/bmander/thecityandthebike">source</a></div>
-        <p>An app for finding, photographing and cataloging the graffiti tags on rental bikes' rear fenders.</p>
-      </li>
+      <li><a href="https://bmander.github.io/subway-map/">NYC Subway Ridership Map</a> &mdash; riders aboard every NYC subway train, inferred from turnstile counts and the timetable <span class="source">(<a href="https://github.com/bmander/subway-map">source</a>)</span>
+      <li><a href="https://bmander.github.io/extrapolation-science/">Extrapolation Science</a> &mdash; where is the bus right now? <span class="source">(<a href="https://github.com/bmander/extrapolation-science">source</a>)</span>
+      <li><a href="https://bmander.github.io/routelab/">routelab</a> &mdash; reference implementations of routing algorithms <span class="source">(<a href="https://github.com/bmander/routelab">source</a>)</span>
+      <li><a href="https://www.thecityandthebike.com/">The City and the Bike</a> &mdash; cataloging the graffiti tags on rental bike fenders <span class="source">(<a href="https://github.com/bmander/thecityandthebike">source</a>)</span>
     </ul>
-  </section>
 
-  <section>
-    <h2>Geometry &amp; CAD</h2>
+    <h2>geometry &amp; cad</h2>
     <ul>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/geomsolver/">Solvent sketcher</a><a class="source" href="https://github.com/bmander/geomsolver">source</a></div>
-        <p>A geometric constraint solver and the declarative language its drawings are written in, running in the browser.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/brep-bench/">brep-bench</a><a class="source" href="https://github.com/bmander/brep-bench">source</a></div>
-        <p>Rosetta Code for B-rep CAD kernels: the same solids built in each kernel, graded the same way, and shown side by side.</p>
-      </li>
+      <li><a href="https://bmander.github.io/geomsolver/">Solvent Sketcher</a> &mdash; a geometric constraint solver and its declarative language <span class="source">(<a href="https://github.com/bmander/geomsolver">source</a>)</span>
+      <li><a href="https://bmander.github.io/brep-bench/">brep-bench</a> &mdash; Rosetta Code for B-rep CAD kernels <span class="source">(<a href="https://github.com/bmander/brep-bench">source</a>)</span>
     </ul>
-  </section>
 
-  <section>
-    <h2>Games in the browser</h2>
+    <h2>games</h2>
     <ul>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/wasmdoom/">DOOM, browser edition</a><a class="source" href="https://github.com/bmander/wasmdoom">source</a></div>
-        <p>DOOM in WebAssembly, with mouse controls, persistent saves, high-resolution rendering and smarter enemies.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/descent/">Descent</a><a class="source" href="https://github.com/bmander/descent">source</a></div>
-        <p>The 1995 Descent engine compiled to WebAssembly.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/webcandc/">Command &amp; Conquer</a><a class="source" href="https://github.com/bmander/webcandc">source</a></div>
-        <p>The 1995 Command &amp; Conquer, built from EA's GPL source release and compiled to WebAssembly. Unofficial; not affiliated with EA.</p>
-      </li>
+      <li><a href="https://bmander.github.io/wasmdoom/">DOOM</a> &mdash; in the browser, with mouse controls and saves <span class="source">(<a href="https://github.com/bmander/wasmdoom">source</a>)</span>
+      <li><a href="https://bmander.github.io/descent/">Descent</a> &mdash; the 1995 engine in WebAssembly <span class="source">(<a href="https://github.com/bmander/descent">source</a>)</span>
+      <li><a href="https://bmander.github.io/webcandc/">Command &amp; Conquer</a> &mdash; the 1995 GPL source in WebAssembly; unofficial <span class="source">(<a href="https://github.com/bmander/webcandc">source</a>)</span>
     </ul>
-  </section>
 
-  <section>
-    <h2>Other</h2>
+    <h2>other</h2>
     <ul>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/sightread/">Sightread</a><a class="source" href="https://github.com/bmander/sightread">source</a></div>
-        <p>A sight-singing trainer for shape-note (Sacred Harp) notation, with an adaptive teacher and pitch grading from the microphone.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/sankey-economy/">U.S. flow of funds</a><a class="source" href="https://github.com/bmander/sankey-economy">source</a></div>
-        <p>How money moves through the U.S. economy, from GDP through income, taxes, government spending and household consumption, as a Sankey diagram.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/android-dev-env/">androiddevenv launcher</a><a class="source" href="https://github.com/bmander/android-dev-env">source</a></div>
-        <p>The control page for a cloud Android build environment on GCP that installs builds on a local phone over Tailscale.</p>
-      </li>
+      <li><a href="https://bmander.github.io/sightread/">Sightread</a> &mdash; a shape-note sight-singing trainer <span class="source">(<a href="https://github.com/bmander/sightread">source</a>)</span>
+      <li><a href="https://bmander.github.io/sankey-economy/">U.S. Flow of Funds</a> &mdash; how money moves through the economy, as a Sankey diagram <span class="source">(<a href="https://github.com/bmander/sankey-economy">source</a>)</span>
+      <li><a href="https://bmander.github.io/android-dev-env/">androiddevenv launcher</a> &mdash; control page for a cloud Android build box <span class="source">(<a href="https://github.com/bmander/android-dev-env">source</a>)</span>
     </ul>
-  </section>
 
-  <section>
-    <h2>Older projects</h2>
+    <h2>older</h2>
     <ul>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/portfolio/">Portfolio</a><span class="year">2018</span><a class="source" href="https://github.com/bmander/portfolio">source</a></div>
-        <p>A gallery of maps and visualizations.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/bikescore-map/">Bikescore map</a><span class="year">2018</span><a class="source" href="https://github.com/bmander/bikescore-map">source</a></div>
-        <p>A slippy map of bikescores.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/buswatch/">BusWatch</a><span class="year">2010</span><a class="source" href="https://github.com/bmander/buswatch">source</a></div>
-        <p>Bus arrival times on your watch: an Android bridge between real-time arrival APIs and Bluetooth displays.</p>
-      </li>
-      <li>
-        <div class="title"><a href="https://bmander.github.io/graphserver/">Graphserver</a><span class="year">2009</span><a class="source" href="https://github.com/bmander/graphserver">source</a></div>
-        <p>An open-source multimodal trip planning engine.</p>
-      </li>
+      <li><a href="https://bmander.github.io/portfolio/">Portfolio</a> &mdash; maps and visualizations, 2018 <span class="source">(<a href="https://github.com/bmander/portfolio">source</a>)</span>
+      <li><a href="https://bmander.github.io/bikescore-map/">Bikescore Map</a> &mdash; 2018 <span class="source">(<a href="https://github.com/bmander/bikescore-map">source</a>)</span>
+      <li><a href="https://bmander.github.io/buswatch/">BusWatch</a> &mdash; bus times on your watch, 2010 <span class="source">(<a href="https://github.com/bmander/buswatch">source</a>)</span>
+      <li><a href="https://bmander.github.io/graphserver/">Graphserver</a> &mdash; multimodal trip planner, 2009 <span class="source">(<a href="https://github.com/bmander/graphserver">source</a>)</span>
     </ul>
-  </section>
 
-  <footer>
-    <a href="https://github.com/bmander">github.com/bmander</a> · <a href="http://bmander.com">bmander.com</a>
-  </footer>
-</main>
+    <p><a href="https://bmander.com/">bmander.com</a> &middot; <a href="https://github.com/bmander">github</a></p>
+  </div>
 </body>
 </html>
